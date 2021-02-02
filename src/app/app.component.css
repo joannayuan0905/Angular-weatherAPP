@@ -1,0 +1,144 @@
+:host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  color: #686868;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+  font-family: 'Concert One', cursive;
+}
+
+p {
+  margin: 0;
+}
+
+
+.title{
+  font-size: 4rem;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.weatherContainer {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 50px;
+  /* max-width: 960px; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherMain{
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* search */
+.searchContainer{
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.searchBar{
+  display: flex;
+  margin: 0 auto;
+}
+
+.searchInput{
+  border-radius: 125px 0 0 125px;
+  width: 70%;
+  padding: 0 30px;
+  font-size: 2rem;
+  color:coral;
+  border: 3px solid coral;
+  outline: none;
+}
+
+.searchBtn{
+  width: 30%;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0 125px 125px 0;
+  background-color: coral;
+  color: #ffff;
+  outline-style: none;
+  cursor: pointer;
+}
+
+.promptMessage{
+  margin: 10px;
+  justify-self: flex-start;
+  color: rgb(255, 0, 0);
+}
+
+/* card */
+.cardContainer{
+  margin: 50px 20px;
+  display: inline-block;
+}
+
+.card{
+  min-width: 350px;
+  background-color: rgb(248, 154, 120);
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(170, 170, 170, 0.5);
+}
+
+.cardMain,.cardFooter{
+  padding: 20px 30px ;
+  display: flex;
+}
+
+.cardMain{
+  background-color: #ffff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.leftColumn{
+  margin: auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.rightColumn{
+  text-align: right;
+}
+
+.weatherIcon{
+  width: 50%;
+}
+
+.weatherIcon img{
+  width: 100px;
+  height: 100px;
+}
+
+.temperature{
+  font-size: 3rem;
+  font-weight: 900;
+  color: coral;
+}
+
+.cityName{
+  font-size: 2rem;
+}
+
+.weatherDescription{
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
